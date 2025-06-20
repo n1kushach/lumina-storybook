@@ -9,6 +9,13 @@ const preview: Preview = {
        date: /Date$/i,
       },
     },
+    backgrounds: {
+      default: 'light',
+      values: [
+        { name: 'light', value: '#ffffff' },
+        { name: 'dark', value: '#000000' },
+      ],
+    },
 
     a11y: {
       // 'todo' - show a11y violations in the test UI only

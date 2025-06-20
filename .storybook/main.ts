@@ -1,3 +1,4 @@
+import "../app/globals.css"
 import type { StorybookConfig } from "@storybook/nextjs-vite";
 
 const config: StorybookConfig = {
@@ -11,7 +12,9 @@ const config: StorybookConfig = {
     "@storybook/addon-onboarding",
     "@storybook/addon-a11y",
     "@storybook/addon-vitest",
-    "@storybook/addon-styling-webpack"
+    "@storybook/addon-styling-webpack",
+    "@storybook/addon-backgrounds"
+
   ],
   "framework": {
     "name": "@storybook/nextjs-vite",
