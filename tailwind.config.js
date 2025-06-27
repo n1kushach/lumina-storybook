@@ -27,7 +27,21 @@ module.exports = {
         extraLarge2: '0px 25px 50px -12px rgba(0, 0, 0, 0.25)',
         innerShadow: 'inset 0px 2px 4px 0px rgba(0, 0, 0, 0.06)',
       },
-      
+      screens: {
+        extraSmall: "320px",
+        small: "512px",
+        medium: "600px",
+        large: "800px",
+        extraLarge: "1100px",
+        extraLarge2: "1400px",
+        extraLarge3: "1920px",
+        androidCompact: "320px",
+        androidMedium: "600px",
+        androidExpanded: "800px",
+        iosCompact: "320px",
+        iosRegular: "600px",
+        iosExpanded: "800px",
+      }
     },
   },
   plugins: [],
