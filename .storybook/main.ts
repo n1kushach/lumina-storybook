@@ -1,9 +1,7 @@
-import "../app/globals.css"
 import type { StorybookConfig } from "@storybook/nextjs-vite";
 
 const config: StorybookConfig = {
   "stories": [
-    "../stories/**/*.mdx",
     "../stories/**/*.stories.@(js|jsx|mjs|ts|tsx)"
   ],
   "addons": [
@@ -13,7 +11,8 @@ const config: StorybookConfig = {
     "@storybook/addon-a11y",
     "@storybook/addon-vitest",
     "@storybook/addon-styling-webpack",
-    "@storybook/addon-backgrounds"
+    "@storybook/addon-themes"
+
 
   ],
   "framework": {

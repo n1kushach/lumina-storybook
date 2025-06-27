@@ -1,4 +1,5 @@
 import "../app/globals.css";
+import "../app/fonts.css"
 import type { Preview } from '@storybook/nextjs-vite'
 
 const preview: Preview = {
@@ -16,6 +17,7 @@ const preview: Preview = {
         { name: 'dark', value: '#000000' },
       ],
     },
+
 
     a11y: {
       // 'todo' - show a11y violations in the test UI only

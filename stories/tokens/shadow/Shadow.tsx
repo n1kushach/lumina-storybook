@@ -21,6 +21,7 @@ export const Shadow = ({
     innerShadow: "shadow-innerShadow",
   };
   return (
-    <div style={{backgroundColor: backgroundColor}}  className={`h-[500px] w-[500px] ${SHADOW[shadow]}  rounded-[6px]`}></div>
+    <div style={{backgroundColor: backgroundColor}}  className={`h-[500px] w-[500px] ${SHADOW[shadow]} flex items-center justify-center text-[20px]  rounded-[6px]`}>
+    </div>
   );
 };

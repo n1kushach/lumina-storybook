@@ -1,46 +1,31 @@
-@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-@theme {
-  /* OPACITY */
-  --opacity-hover: 4%;
-  --opacity-focus: 4%;
-  --opacity-press: 8%;
-  --opacity-active: 12%;
-  /* OPACITY */
 
-  /* SHADOW */
-  --shadow-extraSmall: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
-  --shadow-small: 0px 1px 3px 0px rgba(0, 0, 0, 0.10), 0px 1px 2px 0px rgba(0, 0, 0, 0.06);
-  --shadow-medium: 0px 4px 6px -1px rgba(0, 0, 0, 0.10), 0px 2px 4px -1px rgba(0, 0, 0, 0.06);
-  --shadow-large: 0px 10px 15px -3px rgba(0, 0, 0, 0.10), 0px 4px 6px -2px rgba(0, 0, 0, 0.05);
-  --shadow-extraLarge:  0px 20px 25px -5px rgba(0, 0, 0, 0.10), 0px 10px 10px -5px rgba(0, 0, 0, 0.04);
-  --shadow-extraLarge2: 0px 25px 50px -12px rgba(0, 0, 0, 0.25);
-  --shadow-innerShadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.06) inset;;
-  /* SHADOW */
-
-}
-
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Neue Montreal", Helvetica, sans-serif;
+}
+
+
+/* TYPOGRAPHY */
+
+
+.body_compact-01 {
+  @apply font-neueMontreal text-[14px] leading-[18px] font-normal tracking-[0.16px]
+}
+
+.body_compact-02 {
+  @apply font-neueMontreal text-[16px] leading-[22px] font-normal tracking-[0px]
+}
+
+.body_01 {
+  @apply font-neueMontreal text-[14px] leading-[20px] font-normal tracking-[0px]
+}
+
+.body-02 {
+  @apply font-neueMontreal text-[16px] leading-[24px] font-normal tracking-[0px]
 }
