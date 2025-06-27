@@ -7,13 +7,15 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: "Neue Montreal", Helvetica, sans-serif;
+  font-family: Helvetica, sans-serif;
 }
+
+
 
 
 /* TYPOGRAPHY */
 
-
+/* BODY */
 .body_compact-01 {
   @apply font-neueMontreal text-[14px] leading-[18px] font-normal tracking-[0.16px]
 }
@@ -29,3 +31,76 @@ body {
 .body-02 {
   @apply font-neueMontreal text-[16px] leading-[24px] font-normal tracking-[0px]
 }
+/* BODY */
+
+/* UTILITY */
+.label-01 {
+  @apply font-neueMontreal text-[12px] leading-[14px] font-medium tracking-[0px]
+}
+
+.label-02 {
+  @apply font-neueMontreal text-[14px] leading-[16px] font-medium tracking-[-0.2px]
+}
+
+.label-03 {
+  @apply font-neueMontreal text-[16px] leading-[20px] font-medium tracking-[-0.2px]
+}
+
+.helper-01 {
+  @apply font-neueMontreal text-[12px] leading-[16px] font-normal tracking-[0.32px]
+}
+
+.helper-02 {
+  @apply font-neueMontreal text-[14px] leading-[18px] font-normal tracking-[0.16px]
+}
+
+.metric-01{
+  @apply font-neueMontreal text-[20px] leading-[22px] font-medium tracking-[-0.2px]
+}
+
+.metric-02{
+  @apply font-neueMontreal text-[32px] leading-[40px] font-medium tracking-[-0.2px]
+}
+
+.metric-03{
+  @apply font-neueMontreal text-[46px] font-medium leading-[50px] tracking-[-0.2px]
+}
+
+/* UTILITY */
+
+/* HEADING */
+
+.heading-01{
+  @apply font-editorialNew text-[24px] font-medium leading-[28px] tracking-[0px] capitalize
+}
+.heading-02{
+  @apply font-editorialNew text-[28px] font-medium leading-[36px]
+}
+.heading-03{
+  @apply font-editorialNew text-[32px] font-light leading-[40px] tracking-[0px]
+}
+.heading-04{
+  @apply font-editorialNew text-[36px] font-light leading-[40px] tracking-[0px]
+}
+.heading-05{
+  @apply font-editorialNew text-[42px] font-medium leading-[50px] tracking-[0px]
+}
+.heading-06{
+  @apply font-editorialNew text-[42px] font-light leading-[50px]
+}
+.heading-07{
+  @apply font-editorialNew text-[54px] font-light leading-[64px]
+}
+
+/* HEADING */
+
+/* DISPLAY */
+.display {
+  @apply font-editorialNew text-[100px] font-thin leading-[120px] tracking-[-0.5px]
+}
+/* DISPLAY */
+
+
+
+
+/* TYPOGRAPHY */

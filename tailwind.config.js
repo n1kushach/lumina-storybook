@@ -16,7 +16,7 @@ module.exports = {
       },
       fontFamily: {
         neueMontreal: ["Neue Montreal"],
-        editorialNews: ["Editorial New"],
+        editorialNew: ["Editorial New"],
       },
       boxShadow: {
         extraSmall: '0px 1px 2px 0px rgba(0, 0, 0, 0.05)',

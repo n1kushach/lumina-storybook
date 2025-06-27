@@ -4,7 +4,6 @@ export interface OpacityProps {
  opacity: 'hover' | 'focus' | 'press' | 'active' | 'none';
 }
 
-/** Primary UI component for user interaction */
 export const Opacity = ({
   backgroundColor,
   opacity,

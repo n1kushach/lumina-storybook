@@ -2,12 +2,12 @@
 @font-face {
   font-family: "Neue Montreal";
   src:
-    url("/assets/fonts/neueMontreal/web/NeueMontreal-Thin.woff2")
+    url("/assets/fonts/neueMontreal/web/PPNeueMontreal-Thin.woff2")
       format("woff2"),
-    url("/assets/fonts/neueMontreal/web/NeueMontreal-Thin.woff") format("woff"),
-    url("/assets/fonts/neueMontreal/ttf/NeueMontreal-Thin.ttf")
+    url("/assets/fonts/neueMontreal/web/PPNeueMontreal-Thin.woff") format("woff"),
+    url("/assets/fonts/neueMontreal/ttf/PPNeueMontreal-Thin.ttf")
       format("truetype"),
-    url("/assets/fonts/neueMontreal/otf/NeueMontreal-Thin.otf")
+    url("/assets/fonts/neueMontreal/otf/PPNeueMontreal-Thin.otf")
       format("opentype");
   font-weight: 100;
   font-display: block;
@@ -16,12 +16,12 @@
 @font-face {
   font-family: "Neue Montreal";
   src:
-    url("/assets/fonts/editorialNew/web/NeueMontreal-Light.woff2")
+    url("/assets/fonts/neueMontreal/web/PPNeueMontreal-Light.woff2")
       format("woff2"),
-    url("/assets/fonts/editorialNew/web/NeueMontreal-Light.woff") format("woff"),
-    url("/assets/fonts/editorialNew/ttf/NeueMontreal-Light.ttf")
+    url("/assets/fonts/neueMontreal/web/PPNeueMontreal-Light.woff") format("woff"),
+    url("/assets/fonts/neueMontreal/ttf/PPNeueMontreal-Light.ttf")
       format("truetype"),
-    url("/assets/fonts/editorialNew/otf/NeueMontreal-Light.otf")
+    url("/assets/fonts/neueMontreal/otf/PPNeueMontreal-Light.otf")
       format("opentype");
   font-weight: 300;
   font-display: block;
@@ -30,12 +30,12 @@
 @font-face {
   font-family: "Neue Montreal";
   src:
-    url("/assets/fonts/editorialNew/web/NeueMontreal-Book.woff2")
+    url("/assets/fonts/neueMontreal/web/PPNeueMontreal-Book.woff2")
       format("woff2"),
-    url("/assets/fonts/editorialNew/web/NeueMontreal-Book.woff") format("woff"),
-    url("/assets/fonts/editorialNew/ttf/NeueMontreal-Book.ttf")
+    url("/assets/fonts/neueMontreal/web/PPNeueMontreal-Book.woff") format("woff"),
+    url("/assets/fonts/neueMontreal/ttf/PPNeueMontreal-Book.ttf")
       format("truetype"),
-    url("/assets/fonts/editorialNew/otf/NeueMontreal-Book.otf")
+    url("/assets/fonts/neueMontreal/otf/PPNeueMontreal-Book.otf")
       format("opentype");
   font-weight: 350;
   font-display: block;
@@ -44,13 +44,13 @@
 @font-face {
   font-family: "Neue Montreal";
   src:
-    url("/assets/fonts/editorialNew/web/NeueMontreal-Regular.woff2")
+    url("/assets/fonts/neueMontreal/web/PPNeueMontreal-Regular.woff2")
       format("woff2"),
-    url("/assets/fonts/editorialNew/web/NeueMontreal-Regular.woff")
+    url("/assets/fonts/neueMontreal/web/PPNeueMontreal-Regular.woff")
       format("woff"),
-    url("/assets/fonts/editorialNew/ttf/NeueMontreal-Regular.ttf")
+    url("/assets/fonts/neueMontreal/ttf/PPNeueMontreal-Regular.ttf")
       format("truetype"),
-    url("/assets/fonts/editorialNew/otf/NeueMontreal-Regular.otf")
+    url("/assets/fonts/neueMontreal/otf/PPNeueMontreal-Regular.otf")
       format("opentype");
   font-weight: 400;
   font-display: block;
@@ -59,13 +59,13 @@
 @font-face {
   font-family: "Neue Montreal";
   src:
-    url("/assets/fonts/editorialNew/web/NeueMontreal-Medium.woff2")
+    url("/assets/fonts/neueMontreal/web/PPNeueMontreal-Medium.woff2")
       format("woff2"),
-    url("/assets/fonts/editorialNew/web/NeueMontreal-Medium.woff")
+    url("/assets/fonts/neueMontreal/web/PPNeueMontreal-Medium.woff")
       format("woff"),
-    url("/assets/fonts/editorialNew/ttf/NeueMontreal-Medium.ttf")
+    url("/assets/fonts/neueMontreal/ttf/PPNeueMontreal-Medium.ttf")
       format("truetype"),
-    url("/assets/fonts/editorialNew/otf/NeueMontreal-Medium.otf")
+    url("/assets/fonts/neueMontreal/otf/PPNeueMontreal-Medium.otf")
       format("opentype");
   font-weight: 500;
   font-display: block;
@@ -74,13 +74,13 @@
 @font-face {
   font-family: "Neue Montreal";
   src:
-    url("/assets/fonts/editorialNew/web/NeueMontreal-Semibold.woff2")
+    url("/assets/fonts/neueMontreal/web/PPNeueMontreal-Semibold.woff2")
       format("woff2"),
-    url("/assets/fonts/editorialNew/web/NeueMontreal-Semibold.woff")
+    url("/assets/fonts/neueMontreal/web/PPNeueMontreal-Semibold.woff")
       format("woff"),
-    url("/assets/fonts/editorialNew/ttf/NeueMontreal-Semibold.ttf")
+    url("/assets/fonts/neueMontreal/ttf/PPNeueMontreal-Semibold.ttf")
       format("truetype"),
-    url("/assets/fonts/editorialNew/otf/NeueMontreal-Semibold.otf")
+    url("/assets/fonts/neueMontreal/otf/PPNeueMontreal-Semibold.otf")
       format("opentype");
   font-weight: 600;
   font-display: block;
@@ -89,12 +89,12 @@
 @font-face {
   font-family: "Neue Montreal";
   src:
-    url("/assets/fonts/editorialNew/web/NeueMontreal-Bold.woff2")
+    url("/assets/fonts/neueMontreal/web/PPNeueMontreal-Bold.woff2")
       format("woff2"),
-    url("/assets/fonts/editorialNew/web/NeueMontreal-Bold.woff") format("woff"),
-    url("/assets/fonts/editorialNew/ttf/NeueMontreal-Bold.ttf")
+    url("/assets/fonts/neueMontreal/web/PPNeueMontreal-Bold.woff") format("woff"),
+    url("/assets/fonts/neueMontreal/ttf/PPNeueMontreal-Bold.ttf")
       format("truetype"),
-    url("/assets/fonts/editorialNew/otf/NeueMontreal-Bold.otf")
+    url("/assets/fonts/neueMontreal/otf/PPNeueMontreal-Bold.otf")
       format("opentype");
   font-weight: 700;
   font-display: block;
